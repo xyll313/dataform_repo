@@ -1,0 +1,8 @@
+config {
+    type: "table",
+    schema: "covid19_data"
+    name: "short_data"
+}
+
+SELECT * 
+FROM ${ref("covid_US.processed_data")}

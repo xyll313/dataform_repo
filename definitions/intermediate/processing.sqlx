@@ -1,0 +1,14 @@
+config {
+    type: "table",
+    schema: "covid_US"
+    name: "processed_data"
+}
+
+SELECT
+    date, daily_confirmed,daily_deaths,confirmed_cases,
+    contries_and_terriories as countries,
+    geo_id,
+    country_territory_code as country_code,
+    pop_data_2019 as population
+FROM ${ref("covid_US.covid_19_geographic_distribution_worldwide_copy")}
+LIMIT 10000
