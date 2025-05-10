@@ -2,7 +2,6 @@ config{
     type: "view",
     schema: "covid_US",
     name: "transformed_covid_data",
-    dependencies: ["${ref('covid_19_geographic_distribution_worldwide_copy')}"] 
     tags:["test"]
 }
 
