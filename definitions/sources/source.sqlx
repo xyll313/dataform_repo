@@ -7,7 +7,7 @@ config{
 
 SELECT
     date, daily_confirmed,daily_deaths,confirmed_cases,
-    contries_and_terriories as countries,
+    contries_and_territories as countries,
     geo_id,
     country_territory_code as country_code,
     pop_data_2019 as population

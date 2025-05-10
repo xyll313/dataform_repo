@@ -1,4 +1,4 @@
-declear({
+declare({
     database: "covid_US",
     name:  "covid_19_geographic_distribution_worldwide_copy",
     columns: [
