@@ -2,6 +2,7 @@ config {
     type: "table",
     schema: "covid_US"
     name: "processed_data"
+    tags: ["test"]
 }
 
 SELECT

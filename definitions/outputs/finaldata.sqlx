@@ -2,6 +2,7 @@ config {
     type: "table",
     schema: "covid19_data"
     name: "short_data"
+    tags: ["test"]
 }
 
 SELECT * 

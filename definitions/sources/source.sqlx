@@ -1,0 +1,6 @@
+config{
+    type: "source"
+    schema: "covid_US"
+    table: "covid_19_geographic_distribution_worldwide_copy"
+    tags:["test"]
+}
