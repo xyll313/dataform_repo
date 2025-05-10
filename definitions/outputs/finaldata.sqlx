@@ -1,9 +1,9 @@
 config {
     type: "table",
-    schema: "covid19_data"
-    name: "short_data"
-    tags: ["test"]
-      dependencies: ["${ref('transformed_covid_data')}"] 
+    schema: "covid19_data",
+    name: "short_data",
+    tags: ["test"],
+    dependencies: ["${ref('transformed_covid_data')}"] 
 }
 
 SELECT * 
