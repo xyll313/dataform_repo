@@ -7,4 +7,4 @@ config {
 }
 
 SELECT * 
-FROM  ${ref('transformed_covid_data')};
+FROM  ${ref('transformed_covid_data')}
