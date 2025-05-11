@@ -1,6 +1,6 @@
 config {
     type: "view",
-    schema: "covid_US",
+    schema: "covid19_data",
     name: "transformed_covid_data",
     tags:["test"]
 }
@@ -11,5 +11,5 @@ SELECT
     geo_id,
     country_territory_code as country_code,
     pop_data_2019 as population
-FROM  `fifth-tangent-458407-f2.covid19_data.covid_19_geographic_distribution_worldwide_copy`
+FROM  `fifth-tangent-458407-f2.covid_US.covid_19_geographic_distribution_worldwide_copy`
 LIMIT 10000
