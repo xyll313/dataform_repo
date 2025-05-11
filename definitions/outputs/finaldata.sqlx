@@ -1,4 +1,3 @@
-/*
 config {
     type: "table",
     schema: "covid19_data",
@@ -9,4 +8,4 @@ config {
 
 SELECT * 
 FROM  ${ref('transformed_covid_data')}
-*/
+

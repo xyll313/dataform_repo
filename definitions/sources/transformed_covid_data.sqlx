@@ -1,4 +1,4 @@
-config{
+config {
     type: "view",
     schema: "covid_US",
     name: "transformed_covid_data",
