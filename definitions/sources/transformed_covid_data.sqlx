@@ -6,10 +6,10 @@ config {
 }
 
 SELECT
-    date, daily_confirmed,daily_deaths,confirmed_cases,
-    contries_and_territories as countries,
+    date, daily_confirmed_cases,daily_deaths,confirmed_cases,
+    countries_and_territories as countries,
     geo_id,
     country_territory_code as country_code,
     pop_data_2019 as population
-FROM  `covid_US.covid_19_geographic_distribution_worldwide_copy`
+FROM  `fifth-tangent-458407-f2.covid19_data.covid_19_geographic_distribution_worldwide_copy`
 LIMIT 10000
