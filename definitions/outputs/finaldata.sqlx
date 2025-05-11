@@ -3,9 +3,8 @@ config {
     schema: "covid19_data",
     name: "short_data",
     tags: ["test"],
-    dependencies: ["${ref('covid19_data.transformed_covid_data')}"] 
 }
 
 SELECT * 
-FROM  ${ref('covid19_data.transformed_covid_data')}
+FROM  ${ref("transformed_covid_data")}
 
